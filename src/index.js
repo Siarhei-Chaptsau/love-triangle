@@ -11,7 +11,7 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
 
     if (third === i && first !== i && second !== i) {
       count += 1;
-      arr[i] = -1;
+      arr[i] = null;
     }
   });
   return count;
